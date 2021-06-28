@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route path="/SignUporSignIn" component={SignupOrSignin}></Route>
           <Route
-            path="FireBase-CRUD-React/GamesListFromDatabase"
+            path="/FireBase-CRUD-React/GamesListFromDatabase"
             component={GamesListFromDatabase}
           ></Route>
           <Route path="/GuessGamePage" component={GuessGame}></Route>
