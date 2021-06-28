@@ -18,16 +18,34 @@ function App() {
       <HashRouter>
         <NavigationBar></NavigationBar>
         <Switch>
-          <Route path="/SignUporSignIn" component={SignupOrSignin}></Route>
           <Route
-            path="/GamesListFromDatabase"
+            path="/FireBase-CRUD-React/SignUporSignIn"
+            component={SignupOrSignin}
+          ></Route>
+          <Route
+            path="/FireBase-CRUD-React/GamesListFromDatabase"
             component={GamesListFromDatabase}
           ></Route>
-          <Route path="/GuessGamePage" component={GuessGame}></Route>
-          <Route path="/SliderPage" component={Slider}></Route>
-          <Route path="/Game1WikiPage" component={Game1Wiki}></Route>
-          <Route path="/Game2WikiPage" component={Game2Wiki}></Route>
-          <Route path="/Game3WikiPage" component={Game3Wiki}></Route>
+          <Route
+            path="/FireBase-CRUD-React/GuessGamePage"
+            component={GuessGame}
+          ></Route>
+          <Route
+            path="/FireBase-CRUD-React/SliderPage"
+            component={Slider}
+          ></Route>
+          <Route
+            path="/FireBase-CRUD-React/Game1WikiPage"
+            component={Game1Wiki}
+          ></Route>
+          <Route
+            path="/FireBase-CRUD-React/Game2WikiPage"
+            component={Game2Wiki}
+          ></Route>
+          <Route
+            path="/FireBase-CRUD-React/Game3WikiPage"
+            component={Game3Wiki}
+          ></Route>
           <Route path="/FireBase-CRUD-React" component={Home}></Route>
         </Switch>
         <Footer></Footer>
