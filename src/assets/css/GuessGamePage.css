@@ -1,0 +1,29 @@
+.GuessGame {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  padding-top: 10%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ShowForm {
+  text-align: start;
+  padding-top: 3%;
+  width: 25%;
+}
+
+.GuessEvent {
+  padding-bottom: 3%;
+}
+
+.Result {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}

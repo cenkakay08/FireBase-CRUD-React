@@ -1,0 +1,13 @@
+.sliderDiv {
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.carousel {
+  width: 50%;
+  height: 50%;
+}
+
+.caption{
+    background-color: rgba(0,0,0,0.5);
+}

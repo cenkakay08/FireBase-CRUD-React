@@ -1,0 +1,39 @@
+.gameTitle {
+  width: 50%;
+  margin-left: 10%;
+  float: left;
+  text-align: center;
+  font-size: 1.1em;
+  color: black;
+}
+
+.gameInfo {
+  margin-top: 5%;
+  margin-left: 3%;
+  float: left;
+  text-align: left;
+  color: black;
+}
+
+.wikiHR {
+  height: 2px;
+  background-color: black;
+  color: black;
+}
+
+img{
+  max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
+
+.img {
+  width: 25%;
+  height: 10%;
+  margin-left: 5%;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

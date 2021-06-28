@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+}
+.infoDatabase {
+  font-size: 150%;
+  margin-top: 1%;
+}
+.infoADD {
+  margin-top: 1%;
+  font-weight: bold;
+}
+.dropdownlist {
+  margin-left: 60%;
+  margin-top: -13%;
+  font-weight: bold;
+}
+.checkbox {
+  zoom: 2;
+
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.gamelist {
+  margin-top: 1%;
+  margin-right: 60%;
+}
+.assa {
+  margin-top: 3%;
+}
+.GameName {
+  margin-right: 80%;
+  font-weight: bold;
+}
+.PLAYED {
+  margin-right: 57%;
+  margin-top: -1.5%;
+  font-weight: bold;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.severalcheck {
+  zoom: 2;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.updateDeleteInfo {
+  font-weight: bold;
+  max-width: 20%;
+  margin-left: 37%;
+  margin-top: -5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
