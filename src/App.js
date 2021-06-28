@@ -27,7 +27,7 @@ function App() {
           <Route path="/Game1WikiPage" component={Game1Wiki}></Route>
           <Route path="/Game2WikiPage" component={Game2Wiki}></Route>
           <Route path="/Game3WikiPage" component={Game3Wiki}></Route>
-          <Route path="/" component={Home}></Route>
+          <Route path="/FireBase-CRUD-React" component={Home}></Route>
         </Switch>
         <Footer></Footer>
       </Router>
