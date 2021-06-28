@@ -1,6 +1,7 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import GuessGamePage from "./pages/GuessGamePage";
 import SliderPage from "./pages/Slider";
 import HomePage from "./pages/HomePage";
@@ -14,12 +15,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <NavigationBar></NavigationBar>
         <Switch>
           <Route path="/SignUporSignIn" component={SignupOrSignin}></Route>
           <Route
-            path="/FireBase-CRUD-React/GamesListFromDatabase"
+            path="/GamesListFromDatabase"
             component={GamesListFromDatabase}
           ></Route>
           <Route path="/GuessGamePage" component={GuessGame}></Route>
@@ -27,10 +28,10 @@ function App() {
           <Route path="/Game1WikiPage" component={Game1Wiki}></Route>
           <Route path="/Game2WikiPage" component={Game2Wiki}></Route>
           <Route path="/Game3WikiPage" component={Game3Wiki}></Route>
-          <Route path="/FireBase-CRUD-React" component={Home}></Route>
+          <Route path="/" component={Home}></Route>
         </Switch>
         <Footer></Footer>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
