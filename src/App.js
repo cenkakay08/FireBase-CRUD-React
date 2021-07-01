@@ -1,7 +1,7 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import GuessGamePage from "./pages/GuessGamePage";
 import SliderPage from "./pages/Slider";
 import HomePage from "./pages/HomePage";
@@ -15,41 +15,42 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <Router>
         <NavigationBar></NavigationBar>
         <Switch>
+          <Route exact path="/" component={Home}></Route>
           <Route
-            path="/FireBase-CRUD-React/SignUporSignIn"
+            path="/SignUporSignIn"
             component={SignupOrSignin}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/GamesListFromDatabase"
+            path="/GamesListFromDatabase"
             component={GamesListFromDatabase}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/GuessGamePage"
+            path="/GuessGamePage"
             component={GuessGame}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/SliderPage"
+            path="/SliderPage"
             component={Slider}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/Game1WikiPage"
+            path="/Game1WikiPage"
             component={Game1Wiki}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/Game2WikiPage"
+            path="/Game2WikiPage"
             component={Game2Wiki}
           ></Route>
           <Route
-            path="/FireBase-CRUD-React/Game3WikiPage"
+            path="/Game3WikiPage"
             component={Game3Wiki}
           ></Route>
-          <Route path="/FireBase-CRUD-React" component={Home}></Route>
+
         </Switch>
         <Footer></Footer>
-      </HashRouter>
+      </Router>
     </div>
   );
 }
